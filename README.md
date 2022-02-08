@@ -10,22 +10,15 @@ REST API with the services described below:
 
 ## Getting Started
 
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
 
 ### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
 code blocks for commands
 ```
 ## Author
 
-Jesús Antonio Ladino Valbuena
-jaladinov@unal.edu.co
+* Jesús Antonio Ladino Valbuena
+```
+* jaladinov@unal.edu.co
 
 ## Version History
 
