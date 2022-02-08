@@ -20,7 +20,6 @@ REST API with the services described below:
 * Sales report by date range
 * Secured endpoints with oAuth (token)
 ```
-## Getting Started
 ## Author
 * Jesús Antonio Ladino Valbuena
 * jaladinov@unal.edu.co
