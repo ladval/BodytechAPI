@@ -13,8 +13,19 @@ REST API with the services described below:
 
 ### Executing program
 
+* How to run the program
+* Step-by-step bullets
+```
 code blocks for commands
 ```
+
+## Help
+
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
+
 
 ## Author
 
