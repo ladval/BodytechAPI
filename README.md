@@ -6,7 +6,7 @@ Backend Developer Bodytech technical test.
 
 REST API with the services described below:
 
-1rs phase
+1st phase
 ```
 * Database with framework migrations.
 * Products CRUD.
