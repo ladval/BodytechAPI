@@ -15,22 +15,15 @@ REST API with the services described below:
 
 * How to run the program
 * Step-by-step bullets
-```
-code blocks for commands
+
 ```
 
-## Help
-
-Any advise for common problems or issues.
 ```
-command to run if program contains helper info
-```
-
 
 ## Author
 
-Jesús Antonio Ladino Valbuena
-[@jaladinov](jaladinov@unal.edu.co)
+* Jesús Antonio Ladino Valbuena
+* jaladinov@unal.edu.co
 
 ## Version History
 
