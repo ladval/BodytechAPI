@@ -6,7 +6,13 @@ Backend Developer Bodytech technical test.
 
 REST API with the services described below:
 
-
+1rs phase
+```
+* Database with framework migrations.
+* Products CRUD.
+* Add/Delete shopping car products.
+* show shopping car resume.
+```
 
 ## Getting Started
 
@@ -16,9 +22,6 @@ REST API with the services described below:
 * How to run the program
 * Step-by-step bullets
 
-```
-
-```
 
 ## Author
 
