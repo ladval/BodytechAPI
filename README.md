@@ -29,8 +29,8 @@ command to run if program contains helper info
 
 ## Author
 
-* Jesús Antonio Ladino Valbuena
-* jaladinov@unal.edu.co
+Jesús Antonio Ladino Valbuena
+[@jaladinov](jaladinov@unal.edu.co)
 
 ## Version History
 
