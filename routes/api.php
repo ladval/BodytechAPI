@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\UploadProducts;
 use App\Http\Controllers\AuthController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -26,7 +27,17 @@ Route::get('/products/{id}', [ProductController::class, 'show']);
 Route::get('/products/search/{name}', [ProductController::class, 'search']);
 
 
+<<<<<<< Updated upstream
 
+=======
+Route::get('/cartlist', [CartController::class, 'index']);
+Route::post('/cartlist', [CartController::class, 'store']);
+Route::get('/cartlist/{id}', [CartController::class, 'show']);
+Route::delete('/cartlist/{id}', [CartController::class, 'destroy']);
+Route::delete('/cartlistall/{id}', [CartController::class, 'destroyAll']);
+
+Route::post('/upload-content', [UploadProducts::class, 'uploadContent']);
+>>>>>>> Stashed changes
 
 //Protected routes
 Route::group(['middleware' => ['auth:sanctum']], function () {
