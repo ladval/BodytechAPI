@@ -1,6 +1,7 @@
 # BodytechAPI
 Backend Developer Bodytech technical test.
 ## Documentation
+![alt text](http://url/to/img.png)
 The present API REST project was built with Laravel 8.
 Please check the API documentation on
 ```
