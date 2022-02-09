@@ -7,6 +7,10 @@ Please check the API documentation on
 ```
 localhost:8000/docs/
 ```
+For testing, you can access the Postman collection located in:
+```
+localhost:8000/docs/
+```
 ## Description
 REST API with the services described below:
 ### 1st part
