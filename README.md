@@ -1,4 +1,4 @@
-# BodytechAPI Develop
+# BodytechAPI
 Backend Developer Bodytech technical test.
 ## Description
 REST API with the services described below:
