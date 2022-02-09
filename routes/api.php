@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\UploadProducts;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\CartController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -19,24 +20,22 @@ use Illuminate\Support\Facades\Route;
 */
 
 //Public Routes
-// Route::resource('products', ProductController::class);
-Route::post('/register', [AuthController::class, 'register']);
-Route::post('/login', [AuthController::class, 'login']);
 Route::get('/products', [ProductController::class, 'index']);
 Route::get('/products/{id}', [ProductController::class, 'show']);
+Route::post('/register', [AuthController::class, 'register']);
+Route::post('/login', [AuthController::class, 'login']);
 Route::get('/products/search/{name}', [ProductController::class, 'search']);
 
 
-<<<<<<< Updated upstream
-=======
 Route::get('/cartlist', [CartController::class, 'index']);
 Route::post('/cartlist', [CartController::class, 'store']);
 Route::get('/cartlist/{id}', [CartController::class, 'show']);
 Route::delete('/cartlist/{id}', [CartController::class, 'destroy']);
+
 Route::delete('/cartlistall/{id}', [CartController::class, 'destroyAll']);
 
 Route::post('/upload-content', [UploadProducts::class, 'uploadContent']);
->>>>>>> Stashed changes
+
 //Protected routes
 Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::post('/products', [ProductController::class, 'store']);
