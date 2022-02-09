@@ -91,6 +91,13 @@ class CartController extends Controller
         );
     }
 
+    public function salesreport(Request $request)
+    {
+        $startDate = date('Y-m-d', strtotime($request->start_date));
+        $endDate = date('Y-m-d', strtotime($request->end_date));
+        $salesData = Shopping::whereDate('created_at', '>=', $startDate)->whereDate('created_at', '<=', $endDate)->get()->groupBy('user_id');
+        return $salesData;
+    }
  
     public function usertoken($request)
     {
