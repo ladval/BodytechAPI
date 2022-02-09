@@ -6,9 +6,12 @@ The present API REST project was built with Laravel 8.
 Please check the API documentation on
 ```
 localhost:8000/docs/
+
 ```
 For testing, you can access the Postman collection located in:
-```BodytechAPI/PostmanTestingCollection
+```
+/PostmanTestingCollection
+
 ```
 ## Description
 REST API with the services described below:
