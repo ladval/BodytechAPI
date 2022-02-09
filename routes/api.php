@@ -35,6 +35,7 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::get('/cart-clear', [CartController::class, 'clear']);
     Route::get('/cart-shopping', [CartController::class, 'shopping']);
     Route::post('/upload-content', [UploadProducts::class, 'uploadContent']);
+    //--------------------------------------------------------------------------
     Route::post('/products', [ProductController::class, 'store']);
     Route::put('/products/{id}', [ProductController::class, 'update']);
     Route::delete('/products/{id}', [ProductController::class, 'destroy']);
