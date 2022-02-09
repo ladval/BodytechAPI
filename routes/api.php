@@ -28,7 +28,6 @@ Route::get('/products/search/{name}', [ProductController::class, 'search']);
 
 
 <<<<<<< Updated upstream
-
 =======
 Route::get('/cartlist', [CartController::class, 'index']);
 Route::post('/cartlist', [CartController::class, 'store']);
@@ -38,7 +37,6 @@ Route::delete('/cartlistall/{id}', [CartController::class, 'destroyAll']);
 
 Route::post('/upload-content', [UploadProducts::class, 'uploadContent']);
 >>>>>>> Stashed changes
-
 //Protected routes
 Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::post('/products', [ProductController::class, 'store']);
