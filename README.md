@@ -1,7 +1,7 @@
 # BodytechAPI
 Backend Developer Bodytech technical test.
 ## Documentation
-![alt text](http://url/to/img.png)
+![alt text](https://raw.githubusercontent.com/ladval/BodytechAPI/main/public/docs/images/DocumentationImg.jpg)
 The present API REST project was built with Laravel 8.
 Please check the API documentation on
 ```
