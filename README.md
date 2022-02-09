@@ -1,7 +1,10 @@
 # BodytechAPI
 Backend Developer Bodytech technical test.
 ## Documentation
+Please check the API documentation on
+```
 localhost:8000/docs/
+```
 ## Description
 REST API with the services described below:
 ### 1st part
