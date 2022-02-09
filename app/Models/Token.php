@@ -5,13 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Cart extends Model
+class Token extends Model
 {
     use HasFactory;
+    protected $table = 'personal_access_tokens';
     protected $fillable = [
-        'product_id',
-        'user_id',
-        'product_name',
-        'product_price'
+        'id',
+        'tokenable_id'
     ];
 }
