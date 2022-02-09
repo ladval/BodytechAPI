@@ -50,6 +50,18 @@ class CartController extends Controller
      */
     public function destroy($id)
     {
+        return Cart::destroy($id);
+    }
+
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroyAll($id)
+    {
         $items = Cart::where('id_user',  $id)->get();
         return Cart::destroy($items);
     }

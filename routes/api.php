@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\UploadProducts;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CartController;
 use Illuminate\Http\Request;
@@ -31,7 +32,9 @@ Route::post('/cartlist', [CartController::class, 'store']);
 Route::get('/cartlist/{id}', [CartController::class, 'show']);
 Route::delete('/cartlist/{id}', [CartController::class, 'destroy']);
 
+Route::delete('/cartlistall/{id}', [CartController::class, 'destroyAll']);
 
+Route::post('/upload-content', [UploadProducts::class, 'uploadContent']);
 
 //Protected routes
 Route::group(['middleware' => ['auth:sanctum']], function () {
